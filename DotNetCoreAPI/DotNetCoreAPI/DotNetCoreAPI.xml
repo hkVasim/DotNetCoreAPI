@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetCoreAPI</name>
+    </assembly>
+    <members>
+        <member name="P:DotNetCoreAPI.Models.Employee.EmployeeId">
+            <summary>
+            Gets or Sets EmployeeID
+            </summary>
+        </member>
+        <member name="P:DotNetCoreAPI.Models.Employee.FirstName">
+            <summary>
+            Gets or Sets FirstName
+            </summary>
+        </member>
+        <member name="P:DotNetCoreAPI.Models.Employee.LastName">
+            <summary>
+            Gets or Sets LastName
+            </summary>
+        </member>
+        <member name="P:DotNetCoreAPI.Models.Employee.Email">
+            <summary>
+            Gets or Sets Email
+            </summary>
+        </member>
+        <member name="P:DotNetCoreAPI.Models.Employee.Age">
+            <summary>
+            Gets or Sets Age
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -4,6 +4,41 @@
         <name>DotNetCoreAPI</name>
     </assembly>
     <members>
+        <member name="M:DotNetCoreAPI.Controllers.EmployeeController.GetEmployee">
+            <summary>
+            Get All Employees.
+            </summary>
+            <returns>List of Employees.</returns>
+        </member>
+        <member name="M:DotNetCoreAPI.Controllers.EmployeeController.GetEmployee(System.Int32)">
+            <summary>
+            Get Employee by Id.
+            </summary>
+            <param name="id">EmployeeID.</param>
+            <returns>Employee Record.</returns>
+        </member>
+        <member name="M:DotNetCoreAPI.Controllers.EmployeeController.PutEmployee(System.Int32,DotNetCoreAPI.Models.Employee)">
+            <summary>
+            Update Employee.
+            </summary>
+            <param name="id">Employee ID.</param>
+            <param name="employee">employee object.</param>
+            <returns>Update Employee Record.</returns>
+        </member>
+        <member name="M:DotNetCoreAPI.Controllers.EmployeeController.PostEmployee(DotNetCoreAPI.Models.Employee)">
+            <summary>
+            Create New Employee.
+            </summary>
+            <param name="employee">employee.</param>
+            <returns>New Employee Record.</returns>
+        </member>
+        <member name="M:DotNetCoreAPI.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            Delete employee.
+            </summary>
+            <param name="id">Employee ID.</param>
+            <returns>Delete Employee Record.</returns>
+        </member>
         <member name="P:DotNetCoreAPI.Models.Employee.EmployeeId">
             <summary>
             Gets or Sets EmployeeID
